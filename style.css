@@ -1,0 +1,290 @@
+
+
+/* This code was made by @antabrams */
+/* This code is porperty of Cradex Studios */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/* Setting up the webpage */
+
+* {
+    font-family: 'Poppins', Courier, monospace;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #1B1B1F;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/* header styles */
+
+.header{
+    display: flex;
+    padding: 3%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+img{
+    width: 60px;
+}
+
+.header-middle ul{
+    display: flex;
+    gap: 20px;
+}
+
+.header button{
+    padding: 10px;
+    background-color: #3e71a8;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bxl-windows{
+    font-size: 1.5rem;
+}
+
+
+
+/* main content top */
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%vw;
+}
+
+.content-top-buttons button{
+    padding: 10px;
+    background-color: #3e71a8;
+    border: none;
+    border-radius: 4px;
+    gap: 10px;
+}
+
+.content-top-h1{
+    font-size: 30px;
+}
+
+.main-content-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+    margin-bottom: 20rem;
+    margin-top: 140rem;
+}
+
+.content-top-buttons{
+    display: flex;
+    gap: 50px;
+}
+
+#download-now{
+    display: flex;
+    align-items: center;
+}
+
+#learn-more{
+    width: 10rem;
+}
+
+
+/* main content middle */
+
+.content-middle-h3{
+    margin-bottom: 5rem;
+}
+
+.content-middle-h3{
+    display: flex;
+    justify-content: center;
+}
+
+.main-content-middle{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 20rem;
+}
+
+.middle-cards-top{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 3rem;
+}
+
+.middle-cards-bottom{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+/* card decoration */
+
+.card-1{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #202127;
+}
+
+.card-2{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #202127;
+}
+
+.main-content-middle .bx{
+    background-color: rgba(43,47,54,255);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.card-3{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #202127;
+}
+
+.card-4{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #202127;
+
+}
+
+.main-content-middle p {
+    color: gray;
+}
+
+
+/* main content bottom */
+
+
+.content-bottom-h2{
+    margin-bottom: 5rem;
+}
+
+.profile-text p{
+    color: grey;
+}
+
+.profile-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-bottom-cards{
+    display: flex;
+    padding: 10px;
+    gap: 5rem;
+}
+
+.content-bottom-h2 h2{
+    text-align: center;
+}
+
+/* profile card decorations */
+
+.profile-card-1{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #202127;
+    padding: 20px;
+}
+
+.profile-card-2{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #202127;
+    padding: 20px;
+}
+
+.profile-card-3{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #202127;
+    padding: 20px;
+}
+
+/* main content bottom footer */
+
+.main-bottom-footer{
+    margin-top: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-footer-button button{
+    padding: 10px;
+    background-color: #3e71a8;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* footer */
+
+.foooter-container{
+    margin-top: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    margin-bottom: 10rem;
+}
+
+.text-and-logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
+.socials .bx{
+    font-size: 30px;
+}
+
+/* animations */
+
+button:hover{
+    background-color: #284869;
+    transition: all 0.3s ease-in;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.socials .bx:hover{
+    color: gray;
+    transition: all 0.3s ease-in;
+}
